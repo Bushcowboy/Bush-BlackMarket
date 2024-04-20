@@ -369,7 +369,12 @@ Config.Ammos = {
     },
 }
 
-Config.Ped = vector4(-594.66, 225.93, 73.15, 178.09)
+Config.Peds = {
+    {
+        hash = `a_m_m_indian_01`,
+        location = vector4(-594.66, 225.93, 74.15, 178.09)
+    }
+}
 
 Config.ShopTypes = {
     { type = "Ammos", label = "Ammos", items = Config.Ammos },
