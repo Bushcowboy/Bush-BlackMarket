@@ -2,7 +2,7 @@ CreateThread(function()
     for _, v in pairs(Config.Peds) do
         local modelHash = v.hash
         local coords = v.location
-        lib.requestModel(modelHash, 500)
+        lib.requestModel(modelHash, 5000)
         local spawnedPed = CreatePed(0, modelHash, coords.x, coords.y, coords.z-1.0, coords.w, false, false)
         TaskStartScenarioInPlace(spawnedPed, 'WORLD_HUMAN_CLIPBOARD', -1)
         FreezeEntityPosition(spawnedPed, true)
