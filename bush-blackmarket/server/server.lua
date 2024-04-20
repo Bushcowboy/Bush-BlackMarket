@@ -4,7 +4,7 @@ function RegisterShop()
             name = ShopInfo.label,
             inventory = ShopInfo.items,
             locations = {
-                vector3(21.780282974243, -1107.4278564453, 29.797216415405) -- Changed vec3 to vector3
+                vector3(21.780282974243, -1107.4278564453, 29.797216415405)
             }
         })
     end
