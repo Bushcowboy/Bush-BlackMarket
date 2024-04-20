@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Baylorai'
-description 'Up n Atoms Job for QBCORE'
+author 'BushCowboy'
+description 'Black Market Script for Fivem using ox_inventory, ox_target and ox_lib'
 version '1.0'
 
 shared_scripts {
