@@ -1,3 +1,4 @@
+
 CreateThread(function()
     for _, v in pairs(Config.Peds) do
         local modelHash = v.hash
@@ -30,16 +31,18 @@ function OpenMenu()
         options = {},
     }
     
-    for _, shopType in ipairs(Config.ShopTypes) do
-        local newItem = {
-            title = 'Open Shop',
-            description = shopType.label .. ' Shop',
-            icon = 'fas fa-code-merge',
-            onSelect = function()
-                TriggerEvent('qb-weaponshops:client:OpenShop', shopType.type)
-            end,
-        }
-        menuItems.options[#menuItems.options + 1] = newItem
+    for _, shopType in ipairs(Config.Peds) do
+        for _, info in ipairs(shopType.info) do
+            local newItem = {
+                title = 'Open Shop',
+                description = info.label .. ' Shop',
+                icon = 'fas fa-code-merge',
+                onSelect = function()
+                    TriggerEvent('qb-weaponshops:client:OpenShop', info.type)
+                end,
+            }
+            menuItems.options[#menuItems.options + 1] = newItem
+        end
     end
     
     
