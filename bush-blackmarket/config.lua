@@ -372,16 +372,15 @@ Config.Ammos = {
 Config.Peds = {
     {
         hash = `a_m_m_indian_01`,
-        location = vector4(-594.66, 225.93, 74.15, 178.09)
+        location = vector4(-594.66, 225.93, 74.15, 178.09),
+        info = {
+            { type = "Ammos", label = "Ammos", items = Config.Ammos },
+            { type = "Melees", label = "Melees", items = Config.Melees },
+            { type = "Pistols", label = "Handguns", items = Config.Pistols },
+            { type = "SMGS", label = "SMGs", items = Config.SMGS },
+            { type = "Shotguns", label = "Shotguns", items = Config.Shotguns },
+            { type = "Assaultrifles", label = "Assault Rifles", items = Config.Assaultrifles },
+            { type = "GunPaint", label = "Gun Paint", items = Config.GunPaint },
+        }
     }
-}
-
-Config.ShopTypes = {
-    { type = "Ammos", label = "Ammos", items = Config.Ammos },
-    { type = "Melees", label = "Melees", items = Config.Melees },
-    { type = "Pistols", label = "Handguns", items = Config.Pistols },
-    { type = "SMGS", label = "SMGs", items = Config.SMGS },
-    { type = "Shotguns", label = "Shotguns", items = Config.Shotguns },
-    { type = "Assaultrifles", label = "Assault Rifles", items = Config.Assaultrifles },
-    { type = "GunPaint", label = "Gun Paint", items = Config.GunPaint },
 }
