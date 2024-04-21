@@ -1,4 +1,3 @@
-
 CreateThread(function()
     for _, v in pairs(Config.Peds) do
         local modelHash = v.hash
@@ -13,9 +12,9 @@ CreateThread(function()
         exports.ox_target:addLocalEntity(spawnedPed, {
             {
                 icon = 'fas fa-circle',
-                label = 'Open BlackMarket',
+                label = 'Open ' .. v.label .. ' shop',
                 onSelect = function()
-                    OpenMenu()
+                    OpenMenu(v)
                 end,
                 distance = 2.0
             },
@@ -23,19 +22,21 @@ CreateThread(function()
     end
 end)
 
-function OpenMenu()
-    local menuItems = {
-        id = 'blackmarket',
-        title = 'BlackMarket',
-        icon = 'gun',
-        options = {},
-    }
-    
-    for _, shopType in ipairs(Config.Peds) do
-        for _, info in ipairs(shopType.info) do
+function OpenMenu(personInfo)
+    if #personInfo.info == 1 then
+        local singleInfo = personInfo.info[1]
+        TriggerEvent('qb-weaponshops:client:OpenShop', singleInfo.type)
+    else
+        local menuItems = {
+            id = 'blackmarket',
+            title = personInfo.label .. ' - Shop Types',
+            icon = 'gun',
+            options = {},
+        }
+        for _, info in ipairs(personInfo.info) do
             local newItem = {
-                title = 'Open Shop',
-                description = info.label .. ' Shop',
+                title = info.label,
+                description = 'Open ' .. info.label .. ' shop',
                 icon = 'fas fa-code-merge',
                 onSelect = function()
                     TriggerEvent('qb-weaponshops:client:OpenShop', info.type)
@@ -43,13 +44,12 @@ function OpenMenu()
             }
             menuItems.options[#menuItems.options + 1] = newItem
         end
-    end
-    
-    
 
-    lib.registerContext(menuItems)
-    lib.showContext('blackmarket')
+        lib.registerContext(menuItems)
+        lib.showContext('blackmarket')
+    end
 end
+
 
 RegisterNetEvent('qb-weaponshops:client:OpenShop')
 AddEventHandler('qb-weaponshops:client:OpenShop', function(shopType)
