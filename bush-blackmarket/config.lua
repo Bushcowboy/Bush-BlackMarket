@@ -237,85 +237,154 @@ Config.Assaultrifles = {
 
 Config.GunPaint = {
     {
-        name = "weapontint_black",
-        price = 2500,
-    },
-    {
-        name = "weapontint_green",
-        price = 300,
-    },
-    {
-        name = "weapontint_gold",
+        name = "at_skin_luxe",
         price = 150,
     },
     {
-        name = "weapontint_pink",
+        name = "at_skin_wood",
         price = 150,
     },
     {
-        name = "weapontint_lspd",
+        name = "at_skin_metal",
         price = 150,
     },
     {
-        name = "weapontint_army",
+        name = "at_skin_pearl",
         price = 150,
     },
     {
-        name = "weapontint_plat",
+        name = "at_skin_ballas",
         price = 150,
     },
     {
-        name = "weapontint_orange",
+        name = "at_skin_diamond",
         price = 150,
     },
     {
-        name = "pistol_luxuryfinish",
+        name = "at_skin_dollar",
         price = 150,
     },
     {
-        name = "combatpistol_luxuryfinish",
+        name = "at_skin_hate",
         price = 150,
     },
     {
-        name = "appistol_luxuryfinish",
+        name = "at_skin_king",
         price = 150,
     },
     {
-        name = "pistol50_luxuryfinish",
+        name = "at_skin_love",
         price = 150,
     },
     {
-        name = "revolver_vipvariant",
+        name = "at_skin_pimp",
         price = 150,
     },
     {
-        name = "revolver_bodyguardvariant",
+        name = "at_skin_player",
         price = 150,
     },
     {
-        name = "microsmg_luxuryfinish",
+        name = "at_skin_vagos",
         price = 150,
     },
     {
-        name = "smg_luxuryfinish",
+        name = "at_skin_blagueurs",
         price = 150,
     },
     {
-        name = "pumpshotgun_luxuryfinish",
+        name = "at_skin_splatter",
         price = 150,
     },
     {
-        name = "sawnoffshotgun_luxuryfinish",
+        name = "at_skin_bulletholes",
         price = 150,
     },
     {
-        name = "assaultrifle_luxuryfinish",
+        name = "at_skin_burgershot",
         price = 150,
     },
     {
-        name = "carbinerifle_luxuryfinish",
+        name = "at_skin_cluckinbell",
         price = 150,
     },
+    {
+        name = "at_skin_fatalincursion",
+        price = 150,
+    },
+    {
+        name = "at_skin_luchalibre",
+        price = 150,
+    },
+    {
+        name = "at_skin_trippy",
+        price = 150,
+    },
+    {
+        name = "at_skin_tiedye",
+        price = 150,
+    },
+    {
+        name = "at_skin_wall",
+        price = 150,
+    },
+    {
+        name = "at_skin_vip",
+        price = 150,
+    },
+    {
+        name = "at_skin_bodyguard",
+        price = 150,
+    },
+    {
+        name = "at_skin_festive",
+        price = 150,
+    },
+    {
+        name = "at_skin_security",
+        price = 150,
+    },
+    {
+        name = "at_skin_camo",
+        price = 150,
+    },
+    {
+        name = "at_skin_brushstroke",
+        price = 150,
+    },
+    {
+        name = "at_skin_woodland",
+        price = 150,
+    },
+    {
+        name = "at_skin_skull",
+        price = 150,
+    },
+    {
+        name = "at_skin_perseus",
+        price = 150,
+    },
+    {
+        name = "at_skin_leopard",
+        price = 150,
+    },
+    {
+        name = "at_skin_zebra",
+        price = 150,
+    },
+    {
+        name = "at_skin_geometric",
+        price = 150,
+    },
+    {
+        name = "at_skin_boom",
+        price = 150,
+    },
+    {
+        name = "at_skin_patriotic",
+        price = 150,
+    },
+    
 }
 
 Config.Ammos = {
@@ -369,18 +438,85 @@ Config.Ammos = {
     },
 }
 
+Config.Attachments = {
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_drum_rifle", price = 280 },
+    { name = "at_flashlight", price = 120 },
+    { name = "at_grip", price = 280 },
+    { name = "at_suppressor_heavy", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_scope_medium", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+    { name = "at_clip_extended_rifle", price = 280 },
+}
+
+
+Config.Drugs = {
+    { name = "joint", price = 2500 },
+    { name = "cokebaggy", price = 300 },
+    { name = "crack_baggy", price = 150 },
+    { name = "xtcbaggy", price = 150 },
+    { name = "weed_brick", price = 150 },
+    { name = "coke_brick", price = 150 },
+    { name = "coke_small_brick", price = 150 },
+}
+
+
 Config.Peds = {
     {
-        hash = `a_m_m_indian_01`,
+        label = 'Maude - Attachments',
+        hash = `csb_maude`,
+        location = vector4(-596.34, 217.0, 74.16, 88.62),
+        info = {
+            { type = "Attachments", label = "Weapon Attachments", items = Config.Attachments },
+        }
+    },
+    {
+        label = 'Chef - Drugs',
+        hash = `csb_chef`,
         location = vector4(-594.66, 225.93, 74.15, 178.09),
         info = {
-            { type = "Ammos", label = "Ammos", items = Config.Ammos },
+            { type = "Drugs", label = "Drugs", items = Config.Drugs },
+        }
+    },
+    {
+        label = 'Cletus - Weapons',
+        hash = `csb_cletus`,
+        location = vector4(-597.31, 223.69, 74.15, 267.74),
+        info = {
             { type = "Melees", label = "Melees", items = Config.Melees },
             { type = "Pistols", label = "Handguns", items = Config.Pistols },
             { type = "SMGS", label = "SMGs", items = Config.SMGS },
             { type = "Shotguns", label = "Shotguns", items = Config.Shotguns },
             { type = "Assaultrifles", label = "Assault Rifles", items = Config.Assaultrifles },
+        }
+    },
+    {
+        label = 'Jack Howitzer - Gun Paint',
+        hash = `csb_jackhowitzer`,
+        location = vector4(-593.25, 216.73, 74.15, 86.3),
+        info = {
             { type = "GunPaint", label = "Gun Paint", items = Config.GunPaint },
+        }
+    },
+    {
+        label = 'G - Ammo',
+        hash = `csb_g`,
+        location = vector4(-594.11, 219.45, 74.15, 9.34),
+        info = {
+            { type = "Ammos", label = "Ammo", items = Config.Ammos },
         }
     }
 }
