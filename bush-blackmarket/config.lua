@@ -439,38 +439,122 @@ Config.Ammos = {
 }
 
 Config.Attachments = {
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_drum_rifle", price = 280 },
-    { name = "at_flashlight", price = 120 },
-    { name = "at_grip", price = 280 },
-    { name = "at_suppressor_heavy", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_scope_medium", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
-    { name = "at_clip_extended_rifle", price = 280 },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_drum_rifle", 
+        price = 280
+    },
+    { 
+        name = "at_flashlight", 
+        price = 120
+    },
+    { 
+        name = "at_grip", 
+        price = 280
+    },
+    { 
+        name = "at_suppressor_heavy",
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle",
+        price = 280 
+    },
+    { 
+        name = "at_scope_medium", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    {
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle",
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle",
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
+    { 
+        name = "at_clip_extended_rifle", 
+        price = 280 
+    },
 }
 
 
 Config.Drugs = {
-    { name = "joint", price = 2500 },
-    { name = "cokebaggy", price = 300 },
-    { name = "crack_baggy", price = 150 },
-    { name = "xtcbaggy", price = 150 },
-    { name = "weed_brick", price = 150 },
-    { name = "coke_brick", price = 150 },
-    { name = "coke_small_brick", price = 150 },
+    { 
+        name = "joint", 
+        price = 2500 
+    },
+    { 
+        name = "cokebaggy", 
+        price = 300 
+    },
+    { 
+        name = "crack_baggy", 
+        price = 150 
+    },
+    { 
+        name = "xtcbaggy", 
+        price = 150 
+    },
+    { 
+        name = "weed_brick", 
+        price = 150 
+    },
+    { 
+        name = "coke_brick", 
+        price = 150 
+    },
+    { 
+        name = "coke_small_brick", 
+        price = 150 
+    },
 }
 
 
