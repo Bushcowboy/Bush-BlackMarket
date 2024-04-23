@@ -6,7 +6,8 @@ description 'Black Market Script for Fivem using ox_inventory, ox_target and ox_
 version '1.0'
 
 shared_scripts {
-    'config.lua'
+    'config.lua',
+    '@ox_lib/init.lua',
 }
 
 client_scripts {
@@ -16,3 +17,5 @@ client_scripts {
 server_scripts {
 	'server/*.lua'
 }
+
+lua54 'yes'
