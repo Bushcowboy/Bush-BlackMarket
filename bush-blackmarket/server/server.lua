@@ -1,6 +1,8 @@
 function RegisterShop()
-    for _, ShopInfo in ipairs(Config.Peds) do
-        for _, info in ipairs(ShopInfo.info) do
+    for i = 1, #Config.Peds do
+        local ShopInfo = Config.Peds[i]
+        for j = 1, #ShopInfo.info do
+            local info = ShopInfo.info[j]
             exports.ox_inventory:RegisterShop(info.type, {
                 name = info.label,
                 inventory = info.items,
