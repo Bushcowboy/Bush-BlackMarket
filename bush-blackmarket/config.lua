@@ -63,7 +63,7 @@ Config.Melees = {
     },
     { 
         name = "weapon_poolcue",
-         price = 150 
+        price = 150 
     },
     { 
         name = "weapon_stone_hatchet", 
@@ -384,7 +384,6 @@ Config.GunPaint = {
         name = "at_skin_patriotic",
         price = 150,
     },
-    
 }
 
 Config.Ammos = {
@@ -525,7 +524,6 @@ Config.Attachments = {
     },
 }
 
-
 Config.Drugs = {
     { 
         name = "joint", 
@@ -557,28 +555,36 @@ Config.Drugs = {
     },
 }
 
-
 Config.Peds = {
     {
+        id = 'bmarket1',
+        icon = 'fa-solid fa-gun',
         label = 'Maude - Attachments',
         hash = `csb_maude`,
-        location = vector4(-596.34, 217.0, 74.16, 88.62),
+        coords = vec3(-596.34, 217.0, 74.16),
+        heading = 88.62,
         info = {
             { type = "Attachments", label = "Weapon Attachments", items = Config.Attachments },
         }
     },
     {
+        id = 'bmarket2',
+        icon = 'fa-solid fa-gun',
         label = 'Chef - Drugs',
         hash = `csb_chef`,
-        location = vector4(-594.66, 225.93, 74.15, 178.09),
+        coords = vec3(-594.66, 225.93, 74.15),
+        heading = 178.09,
         info = {
             { type = "Drugs", label = "Drugs", items = Config.Drugs },
         }
     },
     {
+        id = 'bmarket3',
+        icon = 'fa-solid fa-gun',
         label = 'Cletus - Weapons',
         hash = `csb_cletus`,
-        location = vector4(-597.31, 223.69, 74.15, 267.74),
+        coords = vec3(-597.31, 223.69, 74.15),
+        heading = 267.7,
         info = {
             { type = "Melees", label = "Melees", items = Config.Melees },
             { type = "Pistols", label = "Handguns", items = Config.Pistols },
@@ -588,17 +594,23 @@ Config.Peds = {
         }
     },
     {
+        id = 'bmarket4',
+        icon = 'fa-solid fa-gun',
         label = 'Jack Howitzer - Gun Paint',
         hash = `csb_jackhowitzer`,
-        location = vector4(-593.25, 216.73, 74.15, 86.3),
+        coords = vec3(-593.25, 216.73, 74.15),
+        heading = 86.3,
         info = {
             { type = "GunPaint", label = "Gun Paint", items = Config.GunPaint },
         }
     },
     {
+        id = 'bmarket5',
+        icon = 'fa-solid fa-gun',
         label = 'G - Ammo',
         hash = `csb_g`,
-        location = vector4(-594.11, 219.45, 74.15, 9.34),
+        coords = vec3(-594.11, 219.45, 74.15),
+        heading =  9.34,
         info = {
             { type = "Ammos", label = "Ammo", items = Config.Ammos },
         }
